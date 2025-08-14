@@ -21,7 +21,7 @@ background: rgba(82, 195, 3, 1);
   .btnc{
     text-align: center;
   }
-  .btn:hover{
+  .btnc:hover{
     background-color: azure;
   }
   #hero{
@@ -149,23 +149,32 @@ text-align: center;
         padding: 0 10px;
     }
 
-    .btn {
-        display: inline-block;
-        background: #00c853;
-        color: white;
+   
+        
+    
+    .btn_div{
+        width: full;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnd{
+        background: green;
+        color: #d4f0d4;
         padding: 10px 20px;
         text-decoration: none;
         border-radius: 8px;
         font-weight: bold;
-        margin-top: 20px;
         text-align: center;
+        margin-bottom: 40px;
+        margin-top: 50px;
+
     }
 
-    .btn:hover {
-        background: #00b34a;
-    }
+  
     .end{
-        /* We always make sure to provide you with good food */
+        
 width: 805px;
 height: 128px;
     }
@@ -195,7 +204,7 @@ text-align: left;
         text-align: center;
         padding: 40px 20px;
         background: rgba(255,255,255,0.9);
-        background-image: url('background.jpg'); /* এখানে তোমার ব্যাকগ্রাউন্ড ইমেজ লিংক দাও */
+        background-image: url('../assets/social-bg.png'); 
         background-size: cover;
         background-position: center;
     }
