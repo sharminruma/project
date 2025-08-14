@@ -158,11 +158,91 @@ text-align: center;
         border-radius: 8px;
         font-weight: bold;
         margin-top: 20px;
+        text-align: center;
     }
 
     .btn:hover {
         background: #00b34a;
     }
+    .end{
+        /* We always make sure to provide you with good food */
+width: 805px;
+height: 128px;
+    }
+    end h1{
+        color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;gap 30px
+    }
+
+    .end p{
+        color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    
+    .footer {
+        text-align: center;
+        padding: 40px 20px;
+        background: rgba(255,255,255,0.9);
+        background-image: url('background.jpg'); /* এখানে তোমার ব্যাকগ্রাউন্ড ইমেজ লিংক দাও */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .footer p {
+        color: gray;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #333333;
+        background: #f1f1f1;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+        background: #dddddd;
+    }
+
+
 
 
 
